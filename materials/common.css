@@ -481,6 +481,10 @@ footer nav,
 	margin-bottom: 10px;
 }
 
+footer ul {
+	padding: 0;
+}
+
 footer ul li {
 	display: inline-block;
 	*display: inline;
