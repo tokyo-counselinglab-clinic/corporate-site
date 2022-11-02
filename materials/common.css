@@ -91,7 +91,6 @@ header {
 #gnav {
 	clear: both;
 	width: 100%;
-	height:46px;
 	padding:0px;
 	margin:0px;
 	background-color: #7f807f;
@@ -102,15 +101,14 @@ header {
 	width: 900px;
 	margin: 10px auto;
 	overflow: hidden;
-	padding:0px;
+	padding: 5px 0;
 
 	*zoom: 1;
 }
 
 #gnav nav ul {
-	margin:5px 25px 5px 25px;
-	padding:0px;
-
+	margin: 0;
+	padding: 0px;
 }
 
 #gnav nav ul li {
@@ -623,10 +621,6 @@ footer ul li:first-child {
 		display: block;
 		padding: 5px 0 5px;
 		text-align: center;
-		border-left: solid 1px #111;
-		border-right: solid 1px #333;
-		border-bottom: solid 1px #111;
-		border-top: solid 1px #333;
 	}
 
 	.column1 {
